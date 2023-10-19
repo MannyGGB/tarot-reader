@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  color: white;
+  background-image: url(./images/annie-spratt-7MX4Clmx-K0-unsplash.jpg);
+  background-size: 100%;
+}
+header {
+  width: 100%;
+  display: flex;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: monospace;
+  color: white;
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
